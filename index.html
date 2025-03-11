@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow & Grace by Benedicta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Madelinette&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      background-color: #000000;
+      padding: 2rem;
+      text-align: center;
+    }
+    .brand-title {
+      font-family: 'Madelinette', cursive;
+      font-size: 4rem;
+      color: #ffc0cb;
+      margin: 0;
+    }
+    .brand-subtitle {
+      font-family: 'Madelinette', cursive;
+      font-size: 1.2rem;
+      color: #ffc0cb;
+      margin-top: 0.3rem;
+    }
+    header p.tagline {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-top: 1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #ffffff;
+      padding: 1rem;
+      border-top: 2px solid #ffc0cb;
+      border-bottom: 2px solid #ffc0cb;
+    }
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem;
+      background-color: #ffffff;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .service {
+      border: 1px solid #000000;
+      padding: 1.5rem;
+      border-radius: 15px;
+      background-color: #ffffff;
+    }
+    .service h3 {
+      color: #ffc0cb;
+      font-size: 1.8rem;
+    }
+    .booking-button {
+      background-color: #ffc0cb;
+      color: #000000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      border: 3px solid #ffc0cb;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem;
+    }
+    .quote {
+      color: #ffc0cb;
+      font-size: 1.8rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand-title">Glow & Grace</h1>
+    <div class="brand-subtitle">by Benedicta</div>
+    <p class="tagline">Fearfully Made, Beautifully Glammed</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Soft Glam</h3>
+        <p>Natural glow with soft neutral tones. Perfect for events or photoshoots.</p>
+        <p><strong>$65 | 1 Hour</strong></p>
+      </div>
+      <div class="service">
+        <h3>Bridal Glam</h3>
+        <p>Flawless, long-wear look tailored to your big day.</p>
+        <p><strong>$150 | 1.5 Hours</strong></p>
+      </div>
+      <div class="service">
+        <h3>Full Glam</h3>
+        <p>Bold eyes, full coverage, and sculpted contour.</p>
+        <p><strong>$85 | 1 Hour</strong></p>
+      </div>
+    </div>
+  </section>
+  <div class="quote">
+    “Beauty begins the moment you decide to be yourself.” – Coco Chanel
+  </div>
+  <section id="booking">
+    <h2>Book Your Appointment</h2>
+    <p>Click below to book your appointment:</p>
+    <a href="https://yourbookinglink.com" target="_blank">
+      <button class="booking-button">Book Now</button>
+    </a>
+  </section>
+  <section id="gallery">
+    <h2 style="text-align:center; font-family:'Playfair Display', serif; font-size:2rem; padding-top:1rem;">Photo Gallery</h2>
+    <div class="gallery">
+      <!-- Photos removed for now -->
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: glowandgrace@example.com</p>
+    <p>Instagram: @glowandgrace</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Glow & Grace by Benedicta. All rights reserved.</p>
+  </footer>
+</body>
+</html>
